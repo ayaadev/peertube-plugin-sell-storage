@@ -7,6 +7,7 @@
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
+- [Acknowledgements](#acknowledgements)
 
 ## About <a name = "about"></a>
 
@@ -116,7 +117,7 @@ Navigate to "Storage Plan" underneath "My video space" in the PeerTube menu
 
 <img width="212" height="258" alt="image" src="https://github.com/user-attachments/assets/05d4b7a2-0964-4bf2-9981-251f32b162b3" />
 
-## Acknowledgements
+## Acknowledgements <a name = "acknowledgements"></a>
 
 This was inspired by and modified from [peertube-plugin-ncd-sell-storage](https://gitea.nicecrew.digital/matty/peertube-plugin-ncd-sell-storage). Modifications include:
 - Error free! **At the time of writing this**, the published version of ncd-sell-storage is outdated and therefore does not work despite the fix being available on their Git repository.
