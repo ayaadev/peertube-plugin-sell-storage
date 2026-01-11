@@ -76,12 +76,12 @@ Go to https://dashboard.stripe.com/webhooks and create a webhook with the follow
 - `invoice.payment_failed`
 - `payment_intent.succeeded`
 
-For the webhook URL, make sure the version in the URL matches the version of the plugin. For example, if your plugin is on version `1.1.6` use the URL:
-`https://your-instance.tld/plugins/sell-storage/1.1.6/router/webhook`
+For the webhook URL, make sure the version in the URL matches the version of the plugin. For example, if your plugin is on version `1.1.7` use the URL:
+`https://your-instance.tld/plugins/sell-storage/1.1.7/router/webhook`
 
 An example of this with the correct version in the webhook URL is available in the plugin settings.
 
-**Note: If you update the plugin, you'll have to update the webhook link in Stripe with the new version. For example, if you update from 1.1.3 to 1.1.6 change the webhook URL to `https://your-instance.tld/plugins/sell-storage/1.1.6/router/webhook`. Don't forget this!**
+**Note: If you update the plugin, you'll have to update the webhook link in Stripe with the new version. For example, if you update from 1.1.3 to 1.1.7 change the webhook URL to `https://your-instance.tld/plugins/sell-storage/1.1.7/router/webhook`. Don't forget this!**
 
 ### PeerTube Plugin
 
