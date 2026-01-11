@@ -46,9 +46,7 @@ async function showPage({ rootEl, peertubeHelpers }) {
     rootEl.innerHTML = `
         <div class="ncd-content text-center">
         <h1>${await peertubeHelpers.translate("Choose your Storage Plan")}</h1>
-        <h5><i>To subscribe to a storage plan with cryptocurrency (BTC, ETH, XMR), <a href="/about/contact">contact us</a>.</i></h5>
-        <h6><i>Note: Cryptocurrency prices are 25% higher to cover transaction fees.</i></h6>
-            <!-- <p>${description.length ? description : await peertubeHelpers.translate("You want tu spport us ? Or need more space ? Your in the right place!")}</p> -->
+	<h5>${description.length ? description : await peertubeHelpers.translate("You want to support us, or need more space? You're in the right place.")}</h5>
             <div class="mt-5" style="max-width: 90%; margin: 0 auto;">
                 <div class="row">
                     ${(await Promise.all(plans.map(async (plan) =>
