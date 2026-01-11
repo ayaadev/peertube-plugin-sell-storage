@@ -400,7 +400,7 @@ function registerMenuSettings(registerSetting) {
     type: "markdown-enhanced",
     private: false,
     descriptionHTML: "You can explain what you want, it is showed on the page. Leave it empty to show default localized description.",
-    default: "You **want tu spport us** ? Or **need more space** ? Your in the right place!"
+    default: "If you need more storage space, please contact us using the contact form."
   });
 
   registerSetting({
@@ -409,7 +409,7 @@ function registerMenuSettings(registerSetting) {
     type: "markdown-enhanced",
     private: false,
     descriptionHTML: "If you want to show a text on the Success page after payment",
-    default: ""
+    default: "Thanks for your support!"
   });
 
   registerSetting({
@@ -418,7 +418,7 @@ function registerMenuSettings(registerSetting) {
     type: "markdown-enhanced",
     private: false,
     descriptionHTML: "If you want to show a text on the Cancel page after payment canceled",
-    default: ""
+    default: "Have a great rest of your day!"
   });
 
 
@@ -440,7 +440,7 @@ function registerMenuSettings(registerSetting) {
     type: "input",
     private: false,
     descriptionHTML: "Specify the name of your plan",
-    default: "Starter plan",
+    default: "Starter Plan",
   });
 
   registerSetting({
@@ -457,7 +457,7 @@ function registerMenuSettings(registerSetting) {
     label: "Plan price /month",
     type: "input",
     private: false,
-    descriptionHTML: "Specify the price /month users pay for this plan",
+    descriptionHTML: "Specify the price per month users pay for this plan",
     default: 5,
   });
 
@@ -482,7 +482,7 @@ function registerMenuSettings(registerSetting) {
     type: "input",
     private: false,
     descriptionHTML: "Specify the name of your plan",
-    default: "Community plan",
+    default: "Community Plan",
   });
 
   registerSetting({
@@ -499,7 +499,7 @@ function registerMenuSettings(registerSetting) {
     label: "Plan price /month",
     type: "input",
     private: false,
-    descriptionHTML: "Specify the price /month users pay for this plan",
+    descriptionHTML: "Specify the price per month users pay for this plan",
     default: 10,
   });
 
@@ -523,7 +523,7 @@ function registerMenuSettings(registerSetting) {
     type: "input",
     private: false,
     descriptionHTML: "Specify the name of your plan",
-    default: "Profesionnal plan",
+    default: "Professional Plan",
   });
 
   registerSetting({
@@ -540,7 +540,7 @@ function registerMenuSettings(registerSetting) {
     label: "Plan price /month",
     type: "input",
     private: false,
-    descriptionHTML: "Specify the price /month users pay for this plan",
+    descriptionHTML: "Specify the price per month users pay for this plan",
     default: 15,
   });
 
@@ -564,7 +564,7 @@ function registerMenuSettings(registerSetting) {
       type: "input",
       private: false,
       descriptionHTML: "Specify the name of your plan",
-      default: "Profesionnal plan",
+      default: "Professional Plan",
     });
   
     registerSetting({
@@ -581,7 +581,7 @@ function registerMenuSettings(registerSetting) {
       label: "Plan price /month",
       type: "input",
       private: false,
-      descriptionHTML: "Specify the price /month users pay for this plan",
+      descriptionHTML: "Specify the price per month users pay for this plan",
       default: 15,
     });
   
@@ -605,7 +605,7 @@ function registerMenuSettings(registerSetting) {
     type: "input",
     private: false,
     descriptionHTML: "Specify the name of your plan",
-    default: "Profesionnal plan",
+    default: "Professional Plan",
   });
 
   registerSetting({
@@ -622,7 +622,7 @@ function registerMenuSettings(registerSetting) {
     label: "Plan price /month",
     type: "input",
     private: false,
-    descriptionHTML: "Specify the price /month users pay for this plan",
+    descriptionHTML: "Specify the price per month users pay for this plan",
     default: 15,
   });
 
