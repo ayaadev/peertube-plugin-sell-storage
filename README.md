@@ -13,13 +13,12 @@
 
 This plugin allows you to sell storage space to your users using Stripe subscription. Payments are automated with Stripe.
 
-This is a fork of [peertube-plugin-ncd-sell-storage](https://gitea.nicecrew.digital/matty/peertube-plugin-ncd-sell-storage). The most notable improvements are:
-- Error free! **At the time of writing this**, the published version of ncd-sell-storage is outdated and therefore does not work despite the fix being available on their Git repository.
-- Branding removed. ncd-sell-storage had hardcoded branding which was removed so this plugin is accessible by everyone.
+The most notable features are:
+- Automatic video quota increases and decreases without human intervention.
+- Dedicated page in the menu which promotes upgrading users' storage and makes it easy to see subscription information.
+- Up to five different packages/subscriptions.
+- The interface is unbranded, which makes this plugin accessible by every instance.
 - Custom billing portal for customers to manage their subscriptions.
-- Imrpoved documentation. For example, the necessary API events for the Stripe webhook are documented.
-
-As with [peertube-plugin-ncd-sell-storage](https://gitea.nicecrew.digital/matty/peertube-plugin-ncd-sell-storage), this fork allows you to add five different packages/subscriptions.
 
 ## Prerequisites <a name="prerequisites"></a>
 
@@ -30,17 +29,20 @@ As with [peertube-plugin-ncd-sell-storage](https://gitea.nicecrew.digital/matty/
 
 ## Installation <a name="installation"></a>
 
-- Go to your instance Admin
-- Navigate to the "Plugins" page
+- Navigate to the "Settings" page on the PeerTube menu when logged in as an admin.
+- Click on the "Plugins/Themes" section.
 - Search for "sell-storage"
-- Click Install near the plugin name
+- Click "Install" near the plugin name
 
 ### If you're installing locally
- - Clone Git repository
- - cd peertube-plugin-sell-storage
- - yarn
- - yarn build
- - Install via PeerTube CLI
+ - Clone the Git repository, change directories, and build the plugin
+ ```bash
+git clone https://github.com/ayaadev/peertube-plugin-sell-storage.git
+cd peertube-plugin-sell-storage
+yarn
+yarn build
+ ```
+ - Install via the [PeerTube CLI](https://docs.joinpeertube.org/contribute/plugins#test-your-plugin-theme).
 
 ## Configuration <a name="configuration"></a>
 You need a Stripe account as stated in the [Prerequisites](#prerequisites) section.
@@ -114,3 +116,10 @@ Navigate to "Storage Plan" underneath "My video space" in the PeerTube menu
 
 <img width="212" height="258" alt="image" src="https://github.com/user-attachments/assets/05d4b7a2-0964-4bf2-9981-251f32b162b3" />
 
+## Acknowledgements
+
+This was inspired by and modified from [peertube-plugin-ncd-sell-storage](https://gitea.nicecrew.digital/matty/peertube-plugin-ncd-sell-storage). Modifications include:
+- Error free! **At the time of writing this**, the published version of ncd-sell-storage is outdated and therefore does not work despite the fix being available on their Git repository.
+- Branding removed. ncd-sell-storage had hardcoded branding which was removed so this plugin is accessible by everyone.
+- Custom billing portal for customers to manage their subscriptions.
+- Imrpoved documentation. For example, the necessary API events for the Stripe webhook are documented and screenshots have been included.
