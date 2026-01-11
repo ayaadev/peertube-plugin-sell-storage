@@ -1,0 +1,55 @@
+{
+  "name": "peertube-plugin-sell-storage",
+  "description": "Updated and republished version of peertube-plugin-ncd-sell-storage to sell storage to users using Stripe",
+  "version": "1.1.5",
+  "author": "AyaaDev",
+  "bugs": "https://github.com/ayaadev/peertube-plugin-sell-storage",
+  "clientScripts": [
+    {
+      "script": "dist/common-client-plugin.js",
+      "scopes": [
+        "common"
+      ]
+    }
+  ],
+  "css": [
+    "assets/style.css"
+  ],
+  "engine": {
+    "peertube": ">=4.3.0"
+  },
+  "homepage": "https://github.com/ayaadev/peertube-plugin-sell-storage",
+  "keywords": [
+    "peertube",
+    "plugin",
+    "storage",
+    "admin",
+    "stats"
+  ],
+  "library": "./main.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "node ./scripts/build.js",
+    "pl:install": "cd ../PeerTube && npm run plugin:uninstall -- --npm-name peertube-plugin-sell-storage && npm run plugin:install -- --plugin-path /home/aya/Desktop/GitHub/peertube-plugin-sell-storage"
+  },
+  "staticDirs": {
+    "images": "public/images"
+  },
+  "translations": {
+    "fr-FR": "./languages/fr.json"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.36"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "moment": "^2.29.4",
+    "stripe": "^10.11.0"
+  },
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayaadev/peertube-plugin-sell-storage"
+  },
+  "license": "ISC"
+}
