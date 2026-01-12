@@ -94,22 +94,23 @@ Configure the following settings:
 It's time to add your plans!
 
 1. In stripe, go to https://dashboard.stripe.com/products and add a new product. Set a name, description and price.
-After creation, click on the product and click on the binocular icon at the bottom right.
+
+2. After creation, click on the product and click on the binocular icon at the bottom right.
 <img width="405" height="62" alt="image" src="https://github.com/user-attachments/assets/8b5f95f8-e20a-4cb2-b9e4-872c48ae86e5" />
 
 &nbsp;
 
-2. On the left side of the inspection window, click on the price key.
+3. On the left side of the inspection window, click on the price key.
 <img width="395" height="300" alt="image" src="https://github.com/user-attachments/assets/c20b5320-f88c-4c4f-820b-f9188b84efde" />
 
 &nbsp;
 
-3. On the right side of the inspection window, copy the price ID into the respective plan in the plugin settings.
+4. On the right side of the inspection window, copy the price ID into the respective plan in the plugin settings.
 <img width="436" height="319" alt="image" src="https://github.com/user-attachments/assets/017ced89-6ab5-4b53-8565-93bf1ec0c5f5" />
 
 &nbsp;
 
-Repeat steps 1-3 for each plan (1, 2, 3, 4, 5) in the plugin settings.
+Repeat steps 1-4 for each plan (1, 2, 3, 4, 5) in the plugin settings.
 
 ## Usage <a name = "usage"></a>
 
