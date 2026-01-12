@@ -21,6 +21,10 @@ The most notable features are:
 - The interface is unbranded, which makes this plugin accessible by every instance.
 - Custom billing portal for customers to manage their subscriptions.
 
+<img width="1259" height="580" alt="Screenshot of the Storage Plan page" src="https://github.com/user-attachments/assets/372cb634-0cbf-4a32-b312-3f0f0abde3a3"/>
+
+***Screenshot of the Storage Plan page***
+
 ## Prerequisites <a name="prerequisites"></a>
 
 - Stripe API key
